@@ -1,0 +1,28 @@
+/*
+ * App-specific styles
+ *
+ * App containers and other layout helpers that contribute 
+ * to the global structural settings of the app.
+ *
+ * @since   07/07/22
+ * @updated 29/12/23
+ */
+
+.app-container {
+  /*
+   * Remove or tweak the flexbox and min-height properties 
+   * as you see fit, these are just meant to facilitate 
+   * the demo.
+   */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1.5em;
+}
+
+.app-content {
+  max-width: 400px;
+  font-size: 1.2em;
+  text-align: center;
+}

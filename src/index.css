@@ -1,0 +1,25 @@
+/*
+ * The basic reset
+ *
+ * Zero-down certain things to make them look identical on 
+ * different browsers.
+ *
+ * @since   06/07/22
+ * @updated 29/12/23
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 1em/1.6 sans-serif;
+}
+
+svg {
+  max-width: 100%;
+  vertical-align: middle;
+}
